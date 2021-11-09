@@ -10,11 +10,8 @@ Original file is located at
 import json
 import random
 
-from google.colab import drive
-drive.mount('/content/gdrive')
-
-NSAMPLE = 10000
-DATAFILE = "/content/gdrive/MyDrive/Research/GenderPronoun/alldata_withpronoun_2011-2020.json"
+NSAMPLE = 10000 #Enter how many items you want in your sample.
+DATAFILE = #Enter your file path. 
 
 def iterate_over_file(datafile):
 	with open(datafile, 'r') as fl:
