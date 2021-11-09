@@ -11,7 +11,7 @@ import json
 import random
 
 NSAMPLE = 10000 #Enter how many items you want in your sample.
-DATAFILE = #Enter your file path. 
+DATAFILE = "" #Enter your file path. 
 
 def iterate_over_file(datafile):
 	with open(datafile, 'r') as fl:
